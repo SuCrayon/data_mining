@@ -8,7 +8,7 @@ echo '===create env successfully==='
 # source env/Scripts/activate
 source env/bin/activate
 
-echo '===start installing requirement==='
+echo '===start installing requirements==='
 # install requirement
 pip install -r requirements.txt
 

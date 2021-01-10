@@ -23,7 +23,7 @@
     |-- .gitignore
     |-- install.sh // 环境安装脚本
     |-- README.md // 作业文档说明
-    |-- requirement.txt // 依赖文件
+    |-- requirements.txt // 依赖文件
     |-- .idea
     |   |-- ...
     |-- hw1 // 实验一
@@ -54,7 +54,7 @@
 
 python环境：python3.x
 
-所需依赖在requirement.txt中
+所需依赖在requirements.txt中
 
 ### Installation
 
@@ -91,7 +91,7 @@ source env/Scripts/activate
 #### 4. 依赖安装
 
 ```bash
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 
@@ -118,7 +118,7 @@ python hw3/main.py # 实验三程序
 
 ### 实验一
 
-![1610266975730](README.assets/1610266975730.png)
+![1610266975730](./README.assets/1610266975730.png)
 
 ### 实验二
 

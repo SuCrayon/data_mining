@@ -11,7 +11,6 @@ import numpy as np
 import os
 
 BASE_PATH = os.path.dirname(__file__) or '.'
-print(BASE_PATH)
 # 带读取的数据的文件列表
 FILE_PATH = [
     f'{BASE_PATH}/data/data01.xlsx',
