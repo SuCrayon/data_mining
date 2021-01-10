@@ -52,7 +52,7 @@
 
 三次实验都是使用python语言完成的
 
-python环境：python3.x
+python环境：**python3.6**
 
 所需依赖在requirements.txt中
 
@@ -96,9 +96,7 @@ pip install -r requirements.txt
 
 
 
-#### * 也可以略过2~4步，直接使用install.sh脚本进行安装
-
-注：windows下可以使用git自带的bash命令行来运行sh脚本
+#### * Linux系统可以直接使用install.sh脚本安装环境
 
 ```bash
 ./install.sh # 运行环境安装脚本

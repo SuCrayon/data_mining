@@ -5,7 +5,7 @@ python -m venv env
 echo '===create env successfully==='
 
 # activate the new env
-# source env/Scripts/activate
+echo 'Linux OS'
 source env/bin/activate
 
 echo '===start installing requirements==='
