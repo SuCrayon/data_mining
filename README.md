@@ -85,7 +85,7 @@ cd ../../
 linux
 
 ```bash
-source env/Scripts/activate
+source env/bin/activate
 ```
 
 #### 4. 依赖安装
