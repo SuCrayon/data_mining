@@ -5,10 +5,11 @@ python -m venv env
 echo '===create env successfully==='
 
 # activate the new env
-source env/Scripts/activate
+# source env/Scripts/activate
+source env/bin/activate
 
 echo '===start installing requirement==='
 # install requirement
-pip install -r requirement.txt
+pip install -r requirements.txt
 
 echo 'successful'
