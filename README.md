@@ -23,16 +23,20 @@
     |-- .gitignore
     |-- install.sh // 环境安装脚本
     |-- README.md // 作业文档说明
-    |-- requirements.txt // 依赖文件
+    |-- requirements.txt // 依赖列表
     |-- .idea
     |   |-- ...
     |-- hw1 // 实验一
     |   |-- main.py // 主程序
-    |   |-- data // 存放源数据的文件夹
+    |   |-- data // 存放数据的文件夹
     |       |-- data01.xlsx // 模拟数据库数据的xlsx文件
     |       |-- data02.txt // txt文本数据文件
     |       |-- merged.csv // 经过数据清洗合并后生成的csv文件
     |-- hw2 // 实验二
+    |   |-- main.py // 主程序
+    |   |-- data // 存放数据的文件夹
+    |       |-- merged.csv // 使用的数据
+    |       |-- result.txt // task5实验结果
     |-- hw3 // 实验三
     |-- README.assets // 存放README文档相关资源的目录
         |-- ...
@@ -52,21 +56,28 @@
 
 三次实验都是使用python语言完成的
 
-python环境：**python3.6**
+python环境：**python3.6+**
 
 所需依赖在requirements.txt中
 
+主要使用的工具包：
+
+1. pandas
+2. numpy
+3. matplotlib
+4. seaborn
+
 ### Installation
 
-#### 0. 获取代码
+#### 0. python安装
+
+下载网址：  [https://www.python.org/downloads/](https://www.python.org/downloads/)
+
+#### 1. 获取代码
 
 ```bash
 git clone https://github.com/su614820984/data_mining
 ```
-
-#### 1. python安装
-
-下载网址：  [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
 #### 2. 创建虚拟环境
 
@@ -96,7 +107,11 @@ pip install -r requirements.txt
 
 
 
-#### * Linux系统可以直接使用install.sh脚本安装环境
+#### * 可以直接使用install.sh脚本安装依赖
+
+已经安装了python3.6以上版本
+
+windows可以在git自带的bash命令行中执行脚本
 
 ```bash
 ./install.sh # 运行环境安装脚本
@@ -119,6 +134,26 @@ python hw3/main.py # 实验三程序
 ![1610266975730](README.assets/1610266975730.png)
 
 ### 实验二
+
+成绩1和体测成绩的散点图
+
+x轴：成绩1
+
+y轴：体测成绩
+
+![1610347799928](README.assets/1610347799928.png)
+
+
+
+成绩1的直方图
+
+![1610347832945](README.assets/1610347832945.png)
+
+
+
+学生成绩的相关矩阵
+
+![1610347855969](README.assets/1610347855969.png)
 
 
 

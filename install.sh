@@ -1,15 +1,24 @@
 #!/bin/bash
+os=`uname -o`
+
 echo '===create a new python env==='
 # create a new python env named "env"
-python -m venv env
+# python -m venv env
 echo '===create env successfully==='
 
 # activate the new env
-echo 'Linux OS'
-source env/bin/activate
+if [ ${os} == 'Msys' ]
+then
+	# source env/Scripts/activate
+	echo 'Windows OS'
+elif [ ${os} == 'GNU/Linux' ]
+then
+	# source env/bin/activate
+	echo 'Linux OS'
+fi
 
 echo '===start installing requirements==='
 # install requirement
-pip install -r requirements.txt
+# pip install -r requirements.txt
 
 echo 'successful'
