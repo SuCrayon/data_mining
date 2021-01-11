@@ -11,7 +11,7 @@ import numpy as np
 import os
 
 BASE_PATH = os.path.dirname(__file__) or '.'
-# 带读取的数据的文件列表
+# 待读取的数据的文件列表
 FILE_PATH = [
     f'{BASE_PATH}/data/data01.xlsx',
     f'{BASE_PATH}/data/data02.txt'
