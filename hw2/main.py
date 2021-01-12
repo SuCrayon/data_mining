@@ -13,7 +13,7 @@ import numpy as np
 import seaborn as sns
 
 BASE_PATH = os.path.dirname(__file__) or '.'
-# 带读取的数据的文件列表
+# 待读取的数据的文件列表
 FILE_PATH = f'{BASE_PATH}/data/merged.csv'
 
 
@@ -132,6 +132,8 @@ def main():
     draw_histogram(np.array(data['C1']))
     # 切片取成绩列
     zScore_mat = get_zScoreMat(np.array(data)[:, 5:])
+    # 保存为文件
+    np.savetxt(f'{BASE_PATH}/data/z_score.txt', zScore_mat, delimiter=',')
     correlationMat = get_correlationMat(np.array(data)[:, 5:])
     # 绘制矩阵
     sns.heatmap(correlationMat, cmap='Blues')
