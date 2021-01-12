@@ -142,7 +142,7 @@ python hw3/main.py # 实验三程序
 
 ### 实验一
 
-![1610266975730](README.assets/1610266975730.png)
+![image-20210112183223037](README.assets/image-20210112183223037.png)
 
 ### 实验二
 
